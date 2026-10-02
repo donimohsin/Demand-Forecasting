@@ -1,0 +1,22 @@
+{
+  "moving_average_28d": {
+    "WMAPE": 0.2267,
+    "MAE": 7.066,
+    "RMSE": 10.176
+  },
+  "seasonal_naive": {
+    "WMAPE": 0.26,
+    "MAE": 8.103,
+    "RMSE": 11.784
+  },
+  "gradient_boosting": {
+    "WMAPE": 0.1596,
+    "MAE": 4.976,
+    "RMSE": 6.936
+  },
+  "wmape_reduction_vs_best_baseline_pct": 29.6,
+  "wmape_reduction_vs_moving_average_pct": 29.6,
+  "interval_80pct_coverage": 0.779,
+  "test_period": "2026-08-06 to 2026-09-30",
+  "forecast_horizon": "2026-10-01 to 2026-10-28"
+}
